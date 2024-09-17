@@ -1,17 +1,12 @@
 {
   "name": "mhra-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple json-server for MHRA project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watch db.json --port 8080"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-server": "^1.0.0-beta.2"
+    "json-server": "^0.17.0"
   }
 }

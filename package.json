@@ -1,7 +1,7 @@
 {
-  "name": "mhra-server",
+  "name": "restaurant-data-api",
   "version": "1.0.0",
-  "description": "A simple json-server for MHRA project",
+  "description": "API for restaurant data",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --port 8080"
